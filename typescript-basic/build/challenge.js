@@ -1,0 +1,14 @@
+"use strict";
+var prettyPrintWilder = function (users) {
+    users.map(function (user) {
+        console.log(user.name + " is " + user.age + " years old");
+    });
+};
+var wilders = [];
+var user1 = { name: "Pierre", age: 23 };
+var user2 = { name: "Paul", age: 31 };
+var user3 = { name: "Jacques", age: 25 };
+wilders.push(user1);
+wilders.push(user2);
+wilders.push(user3);
+prettyPrintWilder(wilders);
